@@ -42,6 +42,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+.indent {
+    margin-bottom: 50px;
+}
 .list {
     margin: 0;
     padding: 0;
@@ -53,7 +56,7 @@ img {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
 /* Шапка */
 
@@ -186,16 +189,11 @@ img {
 .hero {
     padding: 200px 452px 280px 452px;
 
-
-
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/Header.jpg);
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
     
     text-align: center;
 }
@@ -225,16 +223,13 @@ img {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-}
-.button {
     background-color: var(--accent-color);
     color: var(--white);
+
 }
 .header {
     color: var(--header-color);
     margin-top: 0;
-    margin-bottom: 0;
 }
 .header-primary {
     font-weight: 700;
@@ -259,7 +254,6 @@ img {
 }
  
 /* Гарантии */
-
 .guarantee {
     display: flex;
     align-items: center;
@@ -322,7 +316,6 @@ img {
     margin-bottom: 0;
     padding-right: 0;
     padding-left: 0;
-    padding-top: 50px;
     padding-bottom: 94px;
 }
 .list-activity .item:not(:last-child){
@@ -330,14 +323,12 @@ img {
 }
 
 /* Наша команда */
-
 .our-team {
     background-color: var(--background-picture-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
 .team-list {
-    padding-top: 50px;
     display: flex;
     padding-left: 0;
     padding-right: 0;
@@ -405,7 +396,6 @@ img {
     justify-content: center;
     padding-left: 0;
     margin-top: 0;
-    padding-top: 50px;
 }
 .company-clients .item + .item {
     margin-left: 30px;
@@ -430,6 +420,9 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+
+/* Футер */
 .footer {
     background-color: var(--footer-background-color);
 }
@@ -465,9 +458,6 @@ img {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
-
-/* Футер */
-
 .footer-header {
     margin-top: 0;
     margin-bottom: 21px;
@@ -484,7 +474,7 @@ img {
     display: flex;
     align-items: baseline;
     padding-top: 48px;
-    padding-bottom: 28px;
+    padding-bottom: 60px;
 
 }
 .footer-list {
@@ -574,21 +564,6 @@ img {
     background-repeat: no-repeat;
     background-image: url(../images/send.svg);
     background-size: contain;
-}
-.goit {
-    display: block;
-    padding-bottom: 21px;
-    color: var(--goit);
-    font-size: 12px;
-    line-height: 2;
-    text-align: center;
-    margin-top: 18px;
-    margin-bottom: 0;
-    padding-top: 18px;
-    border-top: 1px solid var(--footer-links);
-}
-.catalogue-header {
-    text-align: center;
 }
 .catalogue {
 
@@ -734,8 +709,8 @@ img {
 }
 .modal-button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 15px;
+    right: 15px;
     transform: translate(30%, -30%);
     display: flex;
     width: 30px;
@@ -745,8 +720,7 @@ img {
     justify-content: center;
     align-items: center;
     outline: none;
-    border: none;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 .modal-button:before {
